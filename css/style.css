@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-logo{
+    max-height: 60px
+}
+/* Change values to match the radius of your form control */
+.fix-rounded-right {
+  
+}
+/*custom clases*/
+.cw-1{
+   
+}
+.input-width{
+    width: 270px !important;
+}
+.bg-custom-gray{
+    background-color: #f6f6f6;
+}
+.bn{
+    border: 0px solid red;
+    width: 100%;
+}
+
+/*popup*/
+.check{
+    width: 100%;
+}
+.custom-card{
+    position: relative;
+}
+.cardButton{
+    position: absolute;
+    font-size: bold;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    color: red;
+    transition: all .2s;
+}
+.cardButton:hover{
+    
+    transform: scale(1.2);
+    text-shadow: 0px 0px 2px black;
+}
+.popup{
+    position: absolute;
+    max-width: 400px;
+    top: 0;
+    left: 50%;
+    background: #eee;
+    
+/*    background: rgba(255,255,255,.9);*/
+    
+    transform: translateX(-50%);
+/*    https://www.themealdb.com/*/
+}
+.layer{
+    background-image: rgba(255,255,255,.9);
+}
+.my-bg li{
+    background: #eee ;
+}
+
+/*media*/
+@media only screen and (max-width: 1000px) {
+    
+}
